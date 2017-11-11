@@ -1,0 +1,11 @@
+{
+  "name": "kevin",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "test",
+  "scripts": {
+    "test": "tes"
+  },
+  "author": "",
+  "license": "ISC"
+}
