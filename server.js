@@ -5,7 +5,7 @@ var path = require("path");
 
 // ================================
 var app = express();
-var PORT = 4000;
+var PORT = 8080;
 
 app.use(bodyParser.urlencoded({ extended: false}));
 app.use(bodyParser.json());
@@ -20,7 +20,7 @@ var reservations = [];
 // ==============================
 
 app.get("/", function(req, res)  {
-	res.sendFile(path.join(__dirname, "view.html"));
+	res.sendFile(path.join(__dirname, "index.html"));
 });
 
 app.get("/make", function(req, res) {
