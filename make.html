@@ -68,7 +68,7 @@
         group_name: $("#name").val().trim(),
         phone_number: $("#number").val().trim(),
         group_size: $("#size").val().trim(),
-        email: $("#email").val().trim()
+        group_email: $("#email").val().trim()
       };
 
       $.post("/api/new", newReservation)
