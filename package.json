@@ -4,8 +4,22 @@
   "description": "test",
   "main": "test",
   "scripts": {
-    "test": "tes"
+    "test": "tes",
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "kpdebree",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpdebree/HotRestaurant-InClass-Activity.git"
+  },
+  "keywords": [
+    "Hot",
+    "Restuarant",
+    "Stuff"
+  ],
+  "bugs": {
+    "url": "https://github.com/kpdebree/HotRestaurant-InClass-Activity/issues"
+  },
+  "homepage": "https://github.com/kpdebree/HotRestaurant-InClass-Activity#readme"
 }
